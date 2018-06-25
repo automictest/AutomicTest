@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vara>
+   <metadata>
+      <row>
+         <version>12.2.0</version>
+      </row>
+   </metadata>
+   <general_attributes>
+      <row>
+         <minimum_ae_version>11.2</minimum_ae_version>
+         <child_flags>00000000000000000000000000000000</child_flags>
+         <last_runtimes>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</last_runtimes>
+         <name>KPIS_VARA_TO_GRID</name>
+         <type>VARA</type>
+         <sub_type>STATIC</sub_type>
+         <versioning_id>496458786</versioning_id>
+      </row>
+   </general_attributes>
+   <variable_definitions>
+      <row>
+         <column_count>5</column_count>
+         <on_not_found>I</on_not_found>
+         <sort_order>0</sort_order>
+         <type>STATIC</type>
+         <data_type>C</data_type>
+         <validity_range>FREI</validity_range>
+      </row>
+   </variable_definitions>
+   <static_values>
+      <row>
+         <client>100</client>
+         <value1>25.06.18 20:00</value1>
+         <value2>18.06.18 20:00</value2>
+         <value3>11.06.18 20:00</value3>
+         <value4>04.06.18 20:00</value4>
+         <value5>29.05.18 20:00</value5>
+         <validity_range>FREI</validity_range>
+         <key>Backup</key>
+      </row>
+      <row>
+         <client>100</client>
+         <value1>1</value1>
+         <value2>1</value2>
+         <value3>0</value3>
+         <value4>0</value4>
+         <value5>50</value5>
+         <validity_range>FREI</validity_range>
+         <key>Returncode1</key>
+      </row>
+      <row>
+         <client>100</client>
+         <value1>10</value1>
+         <value2>20</value2>
+         <value3>0</value3>
+         <value4>0</value4>
+         <value5>20</value5>
+         <validity_range>FREI</validity_range>
+         <key>Returncode2</key>
+      </row>
+      <row>
+         <client>100</client>
+         <value1>20</value1>
+         <value2>33</value2>
+         <value3>0</value3>
+         <value4>0</value4>
+         <value5>10</value5>
+         <validity_range>FREI</validity_range>
+         <key>Returncode3</key>
+      </row>
+      <row>
+         <client>100</client>
+         <value1>30</value1>
+         <value2>40</value2>
+         <value3>0</value3>
+         <value4>0</value4>
+         <value5>0</value5>
+         <validity_range>FREI</validity_range>
+         <key>Returncode4</key>
+      </row>
+      <row>
+         <client>100</client>
+         <value1>Active</value1>
+         <value2>Waiting</value2>
+         <value3>Waiting</value3>
+         <value4>Canceled</value4>
+         <value5>Ended_OK</value5>
+         <validity_range>FREI</validity_range>
+         <key>State</key>
+      </row>
+   </static_values>
+</vara>
