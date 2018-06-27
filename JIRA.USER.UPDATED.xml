@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vara>
+   <metadata>
+      <row>
+         <version>12.2.0</version>
+      </row>
+   </metadata>
+   <general_attributes>
+      <row>
+         <minimum_ae_version>12.1</minimum_ae_version>
+         <platform>IA</platform>
+         <last_runtimes>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</last_runtimes>
+         <name>JIRA.USER.UPDATED</name>
+         <type>VARA</type>
+         <sub_type>XML</sub_type>
+         <versioning_id>-47446881</versioning_id>
+      </row>
+   </general_attributes>
+   <variable_definitions>
+      <row>
+         <column_count>5</column_count>
+         <on_not_found>I</on_not_found>
+         <sort_order>0</sort_order>
+         <type>XML</type>
+         <data_type>C</data_type>
+         <validity_range>FREI</validity_range>
+      </row>
+   </variable_definitions>
+   <static_values>
+      <row>
+         <client>100</client>
+         <xml><![CDATA[<event_attributes><description></description><key>address</key><type>STRING</type></event_attributes>]]></xml>
+         <validity_range>FREI</validity_range>
+         <key>attribute_67fd8a1b-e71d-486e-92f9-f933507380fb</key>
+      </row>
+      <row>
+         <client>100</client>
+         <xml><![CDATA[<event_attributes><description></description><key>first name</key><type>STRING</type></event_attributes>]]></xml>
+         <validity_range>FREI</validity_range>
+         <key>attribute_a76c5a30-8f1e-471f-9735-6c8ddacaa7cb</key>
+      </row>
+      <row>
+         <client>100</client>
+         <xml><![CDATA[<event_attributes><description></description><key>last name</key><type>STRING</type></event_attributes>]]></xml>
+         <validity_range>FREI</validity_range>
+         <key>attribute_bf23a3fe-9ae3-47ea-a2bb-0a44052d2605</key>
+      </row>
+      <row>
+         <client>100</client>
+         <xml><![CDATA[<event_attributes><description></description><key>mail address</key><type>STRING</type></event_attributes>]]></xml>
+         <validity_range>FREI</validity_range>
+         <key>attribute_f5fd73ac-d227-4d94-8e1a-cffcc93a4dcf</key>
+      </row>
+   </static_values>
+</vara>
