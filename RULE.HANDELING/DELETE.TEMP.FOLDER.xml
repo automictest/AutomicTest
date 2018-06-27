@@ -16,6 +16,7 @@
          <max_parallel_action>1</max_parallel_action>
          <mrt_time>000000</mrt_time>
          <name>DELETE.TEMP.FOLDER</name>
+         <has_prompts>1</has_prompts>
          <type>JOBP</type>
          <inherit_output_filter>N</inherit_output_filter>
          <queue>CLIENT_QUEUE</queue>
@@ -79,6 +80,20 @@
          <ok_status>ANY_OK</ok_status>
       </row>
    </line_conditions>
+   <prompt_set_list>
+      <row>
+         <line_number>1</line_number>
+         <prompt_set>DELETE.TEMP.FOLDER.PRPT</prompt_set>
+         <display_order>1</display_order>
+      </row>
+   </prompt_set_list>
+   <prompt_set_defaults>
+      <row>
+         <prompt_set_element_number>1</prompt_set_element_number>
+         <prompt_set>DELETE.TEMP.FOLDER.PRPT</prompt_set>
+         <variable_name>SERVER_NAME#</variable_name>
+      </row>
+   </prompt_set_defaults>
    <rollback_definitions>
       <row>
       </row>
